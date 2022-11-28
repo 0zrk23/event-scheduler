@@ -1,6 +1,25 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
+
+
+var hour9El = $('#hour-9');
+var hour10El = $('#hour-10');
+var hour11El = $('#hour-11');
+var hour12El = $('#hour-12');
+var hour13El = $('#hour-13');
+var hour14El = $('#hour-14');
+var hour15El = $('#hour-15');
+var hour16El = $('#hour-16');
+var hour17El = $('#hour-17');
+var hour18El = $('#hour-18');
+var hour19El = $('#hour-19');
+var timeBlockEl = $('$timeBlock')
+var currentTimeEl = $('#currentTime');
+
+
+
+
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
